@@ -1,0 +1,21 @@
+{
+  "name": "frontend-basic-setup",
+  "version": "1.0.0",
+  "description": "This is the initial setup required for starting a scss and js setup",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss assets/css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamispandey/frontend-basic-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamispandey/frontend-basic-setup/issues"
+  },
+  "homepage": "https://github.com/shubhamispandey/frontend-basic-setup#readme"
+}
